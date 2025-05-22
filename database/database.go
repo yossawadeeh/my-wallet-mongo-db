@@ -35,6 +35,7 @@ func ConnectDB() error {
 	// 		panic(err)
 	// 	}
 	// }()
+	//
 
 	MongoDB = client.Database(constant.DATABASE_NAME)
 	slog.Info("Connect database successfully !")
