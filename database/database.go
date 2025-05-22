@@ -29,6 +29,7 @@ func ConnectDB() error {
 		slog.Error("Cannot connect database ", "error", err)
 		panic(err)
 	}
+
 	// defer func() {
 	// 	if err := client.Disconnect(context.TODO()); err != nil {
 	// 		panic(err)
